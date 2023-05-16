@@ -9,7 +9,9 @@ public class ArrayListDemo3 {
 		ArrayList<String> enames=new ArrayList<String>();
 		enames.add("Rahul");
 		enames.add("Sonia");
-		enames.add(10);
+		enames.add("Priyanka");
+		
+		System.out.println(enames);
 		
 		
 	}
