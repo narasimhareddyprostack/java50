@@ -17,7 +17,7 @@ public class ReadData {
 			int id = rs.getInt("id");
 			String name = rs.getString("name");
 			int sal = rs.getInt("Salary");
-			System.out.println("Employee Id:"+id + ": Employee Name:"+ name);
+			System.out.println("Employee Id:"+id + ": Employee Name:"+ name+": Salary"+sal);
 		}
 		
 
