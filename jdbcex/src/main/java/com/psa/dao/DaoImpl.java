@@ -28,4 +28,10 @@ public class DaoImpl implements Dao {
 		return jt.queryForList("select * from employee");
 	}
 
+	@Override
+	public void deleteRecords() {
+		jt.update("delete from employee where eid=104");
+		
+	}
+
 }

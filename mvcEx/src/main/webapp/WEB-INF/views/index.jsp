@@ -1,0 +1,1 @@
+<h1 style="border: 3px solid blue">Welcome to Spring Boot MVC</h1>

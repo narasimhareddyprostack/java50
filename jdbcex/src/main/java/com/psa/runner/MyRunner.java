@@ -15,7 +15,8 @@ public class MyRunner implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		//insert data into db;
-		dao.insertRecords();
+		//dao.insertRecords();
+		  dao.deleteRecords();
 		List list= dao.getRecords();
 		list.forEach(rec -> System.out.println(rec));
 
